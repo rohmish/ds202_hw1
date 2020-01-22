@@ -1,0 +1,32 @@
+---
+title: "hw1"
+author: "Rohan Mishra | Github User: rohmish"
+date: "1/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+*Data Science.*
+**What job can you get that's related to data science?**
+Data Science is a growing field in today's corporate world as companies shift to processing Big Data. Companies in every industry from tech to bottling rely on statistics and data to make educated business decisions that influence a positive shift in revenue. Hence the role of data scientist. Data scientists are crucial to businesses as they analyze data trends, create tools via the use of machine learning, statistical analysis, provide insight from structured and unstructured data. Without data scientists, companies would have to spend millions to outsource to people who only specialize in one of the above mentioned.
+       <https://www.cio.com/article/3217026/what-is-a-data-scientist-a-key-data-analytics-role-and-a-lucrative-career.html>
+
+![data science image](https://d2o9wnd5wywfpj.cloudfront.net/covers/8/large/cbds-white-bg.png?1537201915)
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
